@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香港新聞 — 今日焦點</title>
+    <base href="/ai-it-daily/">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hk-news/hk-style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🇭🇰 香港本地新聞</h1>
+            <p class="subtitle">每日 Top 5 香港焦點新聞</p>
+            <nav>
+                <a href="." class="nav-dashboard">🏠 主頁</a>
+                <a href="hk-news/" class="active">香港新聞</a>
+                <a href="hk-news/archive-hk/">歷史記錄</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="date-badge" id="current-date"></div>
+        <div class="news-container" id="hk-news-list">
+            <div class="loading">載入最新新聞...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>由 Polar 🐻‍❄️ 為你準備 | <a href="https://github.com/polarpear67/ai-it-daily">GitHub</a></p>
+    </footer>
+
+    <script src="hk-news/hk-script.js"></script>
+</body>
+</html>

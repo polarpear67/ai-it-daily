@@ -1,0 +1,22 @@
+/* HK News - Traditional Chinese overrides */
+.hk-tag {
+    display: inline-block;
+    background: #e74c3c;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.6rem;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.nav-dashboard {
+    background: var(--accent2) !important;
+    color: #0f0f1a !important;
+    border-color: var(--accent2) !important;
+    font-weight: 600;
+}
+
+.nav-dashboard:hover {
+    background: #00e8be !important;
+}
