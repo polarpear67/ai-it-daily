@@ -3,33 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI & IT Daily — Today's Top 5</title>
+    <title>Polar Dashboard 🐻‍❄️</title>
     <base href="/ai-it-daily/">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
-    <header>
+    <header class="dashboard-header">
         <div class="header-content">
-            <h1>🤖 AI & IT Daily</h1>
-            <p class="subtitle">Top 5 tech news, curated daily</p>
-            <nav>
-                <a href="." class="active">Today</a>
-                <a href="archive/">Archive</a>
-            </nav>
+            <h1>🐻‍❄️ Polar Dashboard</h1>
+            <p class="subtitle">你的個人資訊中樞 — AI & IT 新聞・香港新聞・更多功能</p>
         </div>
     </header>
 
     <main>
-        <div class="date-badge" id="current-date"></div>
-        <div class="news-container" id="news-list">
-            <div class="loading">Loading latest news...</div>
+        <div class="dashboard-grid">
+            <!-- AI/IT News Card -->
+            <a href="news/2026-05-11.html" class="dash-card" id="card-ai">
+                <div class="dash-card-icon">🤖</div>
+                <div class="dash-card-body">
+                    <h3>AI & IT Daily</h3>
+                    <p class="dash-card-desc">全球 Top 5 AI 及科技新聞</p>
+                    <span class="dash-card-meta" id="meta-ai">今日已更新</span>
+                </div>
+            </a>
+
+            <!-- HK News Card -->
+            <a href="hk-news/" class="dash-card" id="card-hk">
+                <div class="dash-card-icon">🇭🇰</div>
+                <div class="dash-card-body">
+                    <h3>香港本地新聞</h3>
+                    <p class="dash-card-desc">每日 Top 5 香港焦點新聞（繁體中文）</p>
+                    <span class="dash-card-meta" id="meta-hk">今日已更新</span>
+                </div>
+            </a>
+
+            <!-- Placeholder: Task Manager -->
+            <div class="dash-card dash-card-placeholder" id="card-tasks">
+                <div class="dash-card-icon">📋</div>
+                <div class="dash-card-body">
+                    <h3>任務管理 <span class="coming-soon-badge">敬請期待</span></h3>
+                    <p class="dash-card-desc">管理你的待辦事項和項目任務</p>
+                    <span class="dash-card-meta">即將推出</span>
+                </div>
+            </div>
+
+            <!-- Placeholder: Project Manager -->
+            <div class="dash-card dash-card-placeholder" id="card-projects">
+                <div class="dash-card-icon">📊</div>
+                <div class="dash-card-body">
+                    <h3>項目管理 <span class="coming-soon-badge">敬請期待</span></h3>
+                    <p class="dash-card-desc">追蹤項目進度和時間線</p>
+                    <span class="dash-card-meta">即將推出</span>
+                </div>
+            </div>
+
+            <!-- Placeholder: Notes -->
+            <div class="dash-card dash-card-placeholder" id="card-notes">
+                <div class="dash-card-icon">📝</div>
+                <div class="dash-card-body">
+                    <h3>快速筆記 <span class="coming-soon-badge">敬請期待</span></h3>
+                    <p class="dash-card-desc">記事和靈感隨手記</p>
+                    <span class="dash-card-meta">即將推出</span>
+                </div>
+            </div>
+
+            <!-- Placeholder: Weather -->
+            <div class="dash-card dash-card-placeholder" id="card-weather">
+                <div class="dash-card-icon">🌤️</div>
+                <div class="dash-card-body">
+                    <h3>天氣資訊 <span class="coming-soon-badge">敬請期待</span></h3>
+                    <p class="dash-card-desc">香港及亞洲天氣概況</p>
+                    <span class="dash-card-meta">即將推出</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-section">
+            <h2>📰 最近更新</h2>
+            <div class="recent-list" id="recent-list">
+                <div class="loading">載入中...</div>
+            </div>
         </div>
     </main>
 
     <footer>
-        <p>Curated by Polar 🐻‍❄️ | <a href="https://github.com/polarpear67/ai-it-daily">GitHub</a></p>
+        <p>由 Polar 🐻‍❄️ 為 Donald 精心打造</p>
+        <p class="footer-links">
+            <a href="https://github.com/polarpear67/ai-it-daily">GitHub</a> · 
+            <a href="archive/">新聞存檔</a> · 
+            <a href="hk-news/archive-hk/">香港新聞存檔</a>
+        </p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="dashboard.js"></script>
 </body>
 </html>
