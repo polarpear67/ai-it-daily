@@ -1,1 +1,34 @@
-{}
+{
+  "2026-05-11": [
+    {
+      "title": "ByteDance Releases UI-TARS-desktop: Open-Source Multimodal AI Agent Stack",
+      "source": "GitHub Trending / AIToolly",
+      "summary": "ByteDance has officially launched UI-TARS-desktop, an open-source multimodal AI agent stack designed to bridge frontier AI models with functional desktop automation. The project, trending on GitHub, provides a framework for building intelligent agents capable of navigating complex desktop environments with both visual and textual data processing.",
+      "url": "https://aitoolly.com/ai-news/2026-05-11"
+    },
+    {
+      "title": "Meta to Lay Off 10% of Staff — 8,000 Jobs Cut in AI Restructuring",
+      "source": "Reuters / TLDL",
+      "summary": "Meta is planning to lay off approximately 10% of employees (~8,000 jobs) in May, while closing ~6,000 open roles. The cuts follow massive AI investments with $115-135B capex forecast for 2026, as the company restructures toward 'Meta Superintelligence Labs'. Employees will be notified by May 20.",
+      "url": "https://www.reuters.com/technology/"
+    },
+    {
+      "title": "Anthropic Unveils Claude for Financial Services: Investment Banking & Wealth Management",
+      "source": "AIToolly",
+      "summary": "Anthropic has introduced a specialized Claude framework targeting financial services, including investment banking and wealth management workflows. The move signals Anthropic's deepening enterprise push, competing directly with Microsoft and Google in the highly regulated financial sector.",
+      "url": "https://aitoolly.com/ai-news/2026-05-11"
+    },
+    {
+      "title": "US Government Pushes Mandatory Pre-Release AI Testing Frameworks",
+      "source": "imfounder.com",
+      "summary": "Major AI companies including Microsoft and xAI have agreed to provide early model access to regulators as the US government moves toward mandatory pre-release AI testing. AI is increasingly being treated like critical infrastructure, with compliance expected to become a competitive advantage in the regulated era.",
+      "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
+    },
+    {
+      "title": "Sony and TSMC Form Joint Venture on Next-Gen AI Image Sensors",
+      "source": "TLDL / Reuters",
+      "summary": "Sony and TSMC are forming a joint venture to develop next-generation image sensors optimized for AI applications. The partnership combines Sony's sensor design expertise with TSMC's advanced manufacturing capabilities, targeting opportunities in autonomous vehicles, robotics, and AI vision systems.",
+      "url": "https://www.reuters.com/technology/"
+    }
+  ]
+}
